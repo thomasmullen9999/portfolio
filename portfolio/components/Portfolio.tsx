@@ -73,6 +73,34 @@ const Portfolio = () => {
         </tr>
         
       </table>
+
+      <h2>Coming Soon - Future Projects</h2>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Link</th>
+          <th>GitHub Repo</th>
+          <th>Languages/Tech Used</th>
+          <th>Description</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <td>FF7 Guide - Back End</td>
+          <td></td>
+          <td></td>
+          <td>Javascript, Node.js, PostgreSQL</td>
+          <td>A server-side application containing a multitude of information about the PlayStation 1 game Final Fantasy VII, with information on bosses, enemies, locations, characters and more.</td>
+          <td>Not yet started</td>
+        </tr>
+        <tr>
+          <td>FF7 Guide - Front End</td>
+          <td></td>
+          <td></td>
+          <td>Javascript, Angular</td>
+          <td>A detailed walkthrough of the PS1 game Final Fantasy VII.</td>
+          <td>Not yet started</td>
+        </tr>
+        </table>
     </div>
   );
 };

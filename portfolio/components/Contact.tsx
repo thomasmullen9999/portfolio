@@ -2,11 +2,11 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact</h1>
-      <h2>Email - thomasmullen9999@gmail.com</h2>
-      <h2>GitHub - thomasmullen9999</h2>
-      <h2>LinkedIn - https://www.linkedin.com/in/thomas-mullen-2591932b2/</h2>
+    <div id="contact">
+      <h2>Contact</h2>
+      <h3>Email - thomasmullen9999@gmail.com</h3>
+      <h3>GitHub - thomasmullen9999</h3>
+      <h3>LinkedIn - https://www.linkedin.com/in/thomas-mullen-2591932b2/</h3>
     </div>
   );
 };

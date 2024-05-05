@@ -78,3 +78,11 @@ th {
 td {
   border: 1px solid;
 }
+
+#contact {
+  background-color: lightblue;
+  border-radius: 5px;
+  border-color: blue;
+  border-width: 3px;
+  border-style: solid;
+}
