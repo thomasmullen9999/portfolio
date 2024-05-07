@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header>
-      <h1>Thomas Mullen</h1>
+      <h1>Thomas Mullen - Junior Developer</h1>
     </header>
   );
 };

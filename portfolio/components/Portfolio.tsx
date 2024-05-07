@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (
@@ -17,7 +18,7 @@ const Portfolio = () => {
         </tr>
         <tr>
           <td>NC News - Back End</td>
-          <td><a>https://nc-news-evv6.onrender.com/api</a></td>
+          <td><Link to="https://nc-news-evv6.onrender.com/api">https://nc-news-evv6.onrender.com/api</Link></td>
           <td><a>https://github.com/thomasmullen9999/nc-news</a></td>
           <td>Javascript, Node.js, PostgreSQL</td>
           <td>A server-side application, mimicking the back-end of a news website, similarly to Reddit or Quora. This is an API which draws information from a database of users, articles, topics and comments. Created during the back-end portion of my time studying at the Northcoders Software Development Bootcamp.</td>
