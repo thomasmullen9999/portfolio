@@ -22,7 +22,7 @@
   border-radius: 20px;
   border-width: 10px;
   border-style: double;
-  padding: 20px;
+  padding: 40px;
 }
 
 a {
@@ -86,6 +86,8 @@ table {
   border: 1px solid;
   background-color: #C73659;
   margin: 10px;
+  table-layout:fixed;
+  width: 100%;
 }
 
 td, th {
@@ -119,5 +121,9 @@ img {
   width: auto;
   margin-right: 20px;
   margin-top: 20px;
+}
+
+.desc {
+  width: 30%;
 }
 

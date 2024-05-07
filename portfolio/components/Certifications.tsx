@@ -15,7 +15,7 @@ const Certifications = () => {
         technologies in both front-end and back-end web design. In regards to back-end, I learned how to use SQL (specifically PostgreSQL) to seed a database and 
         integrate with an API using Node.js, with Test Driven Development. With front-end, I designed the user-facing side of a website with React.js and Bootstrap,
         which I hosted with Netlify. During the final project phase of the course, I worked as part of a small group of developers to create a mobile
-        application (using React Native, Fireshare, Firestore and Expo) which allows user to view various travel destinations as well as relevant
+        application (using React Native, Fireshare, Firestore and Expo) which allows a user to view various travel destinations as well as relevant
         information about local landmarks, restaurants and tourist attractions.</p>
       <img src="../images/northcoderscert.png" alt="Northcoders certificate of completion"></img>
 
