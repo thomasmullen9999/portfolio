@@ -106,6 +106,10 @@ td, th {
   text-align: left;
 }
 
+#certifications h3, p {
+  text-align: left;
+}
+
 img {
   width: 400px;
 }
