@@ -20,8 +20,8 @@ const Portfolio = () => {
           <td>A server-side application, mimicking the back-end of a news website, similarly to Reddit or Quora. This is an API which draws information from a database of users, articles, topics and comments. Created during the back-end portion of my time studying at the Northcoders Software Development Bootcamp.</td>
           <td>Javascript, Node.js, PostgreSQL</td>
           <td>
-            <p>Hosted API: <Link to="https://nc-news-evv6.onrender.com/api">https://nc-news-evv6.onrender.com/api</Link></p>
-            <p>GitHub Repo: <Link to="https://github.com/thomasmullen9999/nc-news">https://github.com/thomasmullen9999/nc-news</Link></p>
+            <p><Link to="https://nc-news-evv6.onrender.com/api">Hosted API</Link></p>
+            <p><Link to="https://github.com/thomasmullen9999/nc-news">GitHub Repo</Link></p>
           </td>
           
           
@@ -32,8 +32,8 @@ const Portfolio = () => {
           <td>A website which allows users to browse a selection of articles, topics and comments, connected to my NC back-end project. The site was designed to be viewable on a variety of devices, and accessibility was an important factor when designing the site. Created during the front-end portion of my time studying at the Northcoders Software Development Bootcamp.</td>
           <td>HTML/CSS, Javascript, React.js, Bootstrap, Netlify</td>
           <td>
-            <p>Hosted Site: <Link to="https://thomas-mullen-nc-news.netlify.app/">https://thomas-mullen-nc-news.netlify.app/</Link></p>
-            <p>GitHub Repo: <Link to="https://github.com/thomasmullen9999/fe-nc-news">https://github.com/thomasmullen9999/fe-nc-news</Link></p>
+            <p><Link to="https://thomas-mullen-nc-news.netlify.app/">Hosted Site</Link></p>
+            <p><Link to="https://github.com/thomasmullen9999/fe-nc-news">GitHub Repo</Link></p>
           </td>
           <td>Complete</td>
         </tr>
@@ -42,7 +42,7 @@ const Portfolio = () => {
           <td>A database which allows users to store information relating to bands, albums, songs, musicians and more. Created as my final project submission for Harvard University’s CS50 SQL course.</td>
           <td>SQLite3</td>
           <td>
-            <p>GitHub Repo: <Link to="https://github.com/thomasmullen9999/jukebox-database">https://github.com/thomasmullen9999/jukebox-database</Link></p>
+            <p><Link to="https://github.com/thomasmullen9999/jukebox-database">GitHub Repo</Link></p>
           </td>
           <td>Complete</td>
         </tr>
@@ -51,8 +51,8 @@ const Portfolio = () => {
           <td>A detailed walkthrough of a classic video game for the Nintendo Entertainment System, complete with rigorous information on enemies and bosses. Created purely with HTML5 and CSS, I wrote this entire guide from scratch as an ode to a great game.</td>
           <td>HTML/CSS, GitHub Pages</td>
           <td>
-            <p>Hosted Site: <Link to="https://thomasmullen9999.github.io/mega-man-walkthrough/introduction.html">https://thomasmullen9999.github.io/mega-man-walkthrough/introduction.html</Link></p>
-            <p>GitHub Repo: <Link to="https://github.com/thomasmullen9999/mega-man-walkthrough">https://github.com/thomasmullen9999/mega-man-walkthrough</Link></p>
+            <p><Link to="https://thomasmullen9999.github.io/mega-man-walkthrough/introduction.html">Hosted Site</Link></p>
+            <p><Link to="https://github.com/thomasmullen9999/mega-man-walkthrough">GitHub Repo</Link></p>
           </td>
           <td>Complete</td>
         </tr>
@@ -61,7 +61,7 @@ const Portfolio = () => {
           <td>A travel-themed application which allows users to create an account, browse a selection of holiday destinations, search for information about different cities (including restaurants, landmarks and attractions) and create itineraries. This was created in a group with several other students during the final project phase of my time at the Northcoders Software Development Bootcamp.</td>
           <td>HTML/CSS, Javascript, React Native, Firebase, Firestore, Expo</td>
           <td>
-            <p>GitHub Repo: <Link to="https://github.com/thomasmullen9999/trek-it-trave">https://github.com/thomasmullen9999/trek-it-trave</Link></p>
+            <p><Link to="https://github.com/thomasmullen9999/trek-it-trave">GitHub Repo</Link></p>
           </td>
           <td>Complete</td>
         </tr>
@@ -70,16 +70,17 @@ const Portfolio = () => {
           <td>A Flask application which allows users to view a list of gym exercises, log their own workouts, keep track of their food intake (including calories and other nutritional information) and keep track of their health statistics (e.g. weight, daily steps, etc.). The aim of this project was to combine features from other applications such as MyFitnessPal, Apple's Health app and gym/workout apps and store all the information in one place. Created as my final project submission for Harvard's CS50x Computer Science course.</td>
           <td>Python, Flask, SQLite3</td>
           <td>
-            <p>GitHub Repo: <Link to="https://github.com/thomasmullen9999/fit-and-strong">https://github.com/thomasmullen9999/fit-and-strong</Link></p>
+            <p><Link to="https://thomasmullen9999.github.io/fit-and-strong/">Hosted Site</Link></p>
+            <p><Link to="https://github.com/thomasmullen9999/fit-and-strong">GitHub Repo</Link></p>
           </td>
-          <td>In development</td>
+          <td>Complete</td>
         </tr>
         <tr>
           <td>Portfolio Site</td>
           <td>This very website; a showcase of my web development and programming skills, complete with descriptions and examples of all the various projects I have worked on.</td>
           <td>HTML/CSS, Typescript, React, Bootstrap, Netlify</td>
           <td>
-            <p>GitHub Repo: <Link to="https://github.com/thomasmullen9999/portfolio">https://github.com/thomasmullen9999/portfolio</Link></p>
+            <p><Link to="https://github.com/thomasmullen9999/portfolio">GitHub Repo</Link></p>
           </td>
           <td>In development</td>
         </tr>
