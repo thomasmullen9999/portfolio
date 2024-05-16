@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from "react-router-dom";
 
 const Portfolio = () => {
@@ -61,7 +61,7 @@ const Portfolio = () => {
           <td>A travel-themed application which allows users to create an account, browse a selection of holiday destinations, search for information about different cities (including restaurants, landmarks and attractions) and create itineraries. This was created in a group with several other students during the final project phase of my time at the Northcoders Software Development Bootcamp.</td>
           <td>HTML/CSS, Javascript, React Native, Firebase, Firestore, Expo</td>
           <td>
-            <p><Link to="https://github.com/thomasmullen9999/trek-it-trave">GitHub Repo</Link></p>
+            <p><Link to="https://github.com/thomasmullen9999/trek-it-travel">GitHub Repo</Link></p>
           </td>
           <td>Complete</td>
         </tr>
