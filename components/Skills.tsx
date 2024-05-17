@@ -8,7 +8,7 @@ const Skills = () => {
       <h3>Testing: Test Driven Development (TDD), Jest, Supertest</h3>
       <h3>Back-end: SQL, PostgreSQL, SQLite, Express, database seeding, migrations</h3>
       <h3>Front-end: HTML, CSS, React, React Native, Lighthouse, other accessibility tools</h3>
-      <h3>Hosting: Netlify, Cloudflare, GitHub Pages</h3>
+      <h3>Hosting: Netlify, Cloudflare, GitHub Pages, Vercel, PythonAnywhere</h3>
       <h3>Soft skills: Technical communication, paired programming, SDL, agile and SCRUM Methodologies</h3>
 
       <img src="/html5.png" className="icon"></img>

@@ -95,7 +95,7 @@ td, th {
   padding: 10px;
 }
 
-#contact {
+#contact, .portfolio-piece {
   margin-top: 30px;
   border-radius: 20px;
   border-color: #151515;
@@ -129,11 +129,11 @@ img {
   width: 30%;
 }
 
-.img-right {
- 
-}
-
 .diphe {
   width: 300px;
   height: auto;
+}
+
+button.btn.btn-primary {
+  margin-bottom: 20px;
 }

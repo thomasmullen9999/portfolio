@@ -1,9 +1,9 @@
-
+import React from "react";
 import { Link } from "react-router-dom";
 
-const Portfolio = () => {
+const PortfolioTable = () => {
   return (
-    <div id="portfolio">
+    <div id="portfolio-table">
 
       <h2>A selection of projects I have worked on during my trainee/junior developer journey. I have aimed to become proficient in a wide range of web programming technologies, and have  used a variety of different languages and frameworks.</h2>
 
@@ -23,8 +23,6 @@ const Portfolio = () => {
             <p><Link to="https://nc-news-evv6.onrender.com/api">Hosted API</Link></p>
             <p><Link to="https://github.com/thomasmullen9999/nc-news">GitHub Repo</Link></p>
           </td>
-          
-          
           <td>Complete</td>
         </tr>
         <tr>
@@ -70,7 +68,7 @@ const Portfolio = () => {
           <td>A Flask application which allows users to view a list of gym exercises, log their own workouts, keep track of their food intake (including calories and other nutritional information) and keep track of their health statistics (e.g. weight, daily steps, etc.). The aim of this project was to combine features from other applications such as MyFitnessPal, Apple's Health app and gym/workout apps and store all the information in one place. Created as my final project submission for Harvard's CS50x Computer Science course.</td>
           <td>Python, Flask, SQLite3</td>
           <td>
-            <p><Link to="https://thomasmullen9999.github.io/fit-and-strong/">Hosted Site</Link></p>
+            <p><Link to="https://thomasmullen9999.pythonanywhere.com/login">Hosted Site</Link></p>
             <p><Link to="https://github.com/thomasmullen9999/fit-and-strong">GitHub Repo</Link></p>
           </td>
           <td>Complete</td>
@@ -81,6 +79,7 @@ const Portfolio = () => {
           <td>HTML/CSS, Typescript, React, Bootstrap, Netlify</td>
           <td>
             <p><Link to="https://github.com/thomasmullen9999/portfolio">GitHub Repo</Link></p>
+            <p><Link to="https://thomas-mullen-portfolio.vercel.app/">Hosted Site</Link></p>
           </td>
           <td>In development</td>
         </tr>
@@ -115,4 +114,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default PortfolioTable;
