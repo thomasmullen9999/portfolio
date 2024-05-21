@@ -18,7 +18,7 @@
 }
 
 #app {
-  background-color: #dd254a;
+  background-color: #90A0F4;
   border-radius: 20px;
   border-width: 10px;
   border-style: double;
@@ -72,7 +72,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #242424;
   }
   a:hover {
     color: #747bff;
@@ -95,13 +95,13 @@ td, th {
   padding: 10px;
 }
 
-#contact, .portfolio-piece {
+#contact, .certification, .portfolio-piece, #logos {
   margin-top: 30px;
   border-radius: 20px;
   border-color: #151515;
   border-width: 3px;
   border-style: solid;
-  background-color: #C73659;
+  background-color: #A9B0D6;
   text-align: left;
   padding: 20px;
 }
@@ -136,4 +136,25 @@ img {
 
 button.btn.btn-primary {
   margin-bottom: 20px;
+}
+
+#trek-it-image {
+  height: 400px;
+  width: auto;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+section {
+  display: flex;
+}
+
+section img {
+  margin-right: 20px;
+}
+
+.app-info {
+  display: inline;
 }
