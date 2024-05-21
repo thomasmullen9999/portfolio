@@ -2,7 +2,7 @@
 
 const Home = () => {
   return (
-    <div id="home-text">
+    <div id="home">
       <h2>Home</h2>
       <p>Welcome to my website! This site was created to act as a showcase of my web programming abilities, as well as provide links to several external websites and applications which I have created as part of my software development portfolio. Several of these projects were created whilst studying at a bootcamp or completing online courses, while others were created in my own personal time as an attempt to continue to hone my coding knowledge and broaden my skillset as a dev.</p>
       <img src="/webdesign.png" alt="Web design stock image featuring an Apple iMac"></img>
