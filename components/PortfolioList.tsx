@@ -38,7 +38,7 @@ const PortfolioList = () => {
           
         <img src="/jukebox-db.png" alt="Jukebox.db thumbnail"></img>
         <div className="app-info">
-        <p>Links: <Link to="https://github.com/thomasmullen9999/jukebox-database" target="blank">GitHub Repo</Link> | <Link to="https://www.youtube.com/watch?v=hoeiUS9YI_c&feature=youtu.be" target="blank">Video Overview</Link></p>
+        <p>Links: <Link to="https://www.youtube.com/watch?v=hoeiUS9YI_c&feature=youtu.be" target="blank">Video Overview</Link> | <Link to="https://github.com/thomasmullen9999/jukebox-database" target="blank">GitHub Repo</Link></p>
         <p>A database which allows users to store information relating to bands, albums, songs, musicians and more. Created as my final project submission for Harvard University’s CS50 SQL course.</p>
         <p>Languages/Frameworks Used: SQLite3</p>
         </div>
@@ -76,7 +76,7 @@ const PortfolioList = () => {
           
         <img src="/fit-and-strong.png" alt="Fit and Strong application thumbnail"></img>
         <div className="app-info">
-        <p>Links: <Link to="https://thomasmullen9999.pythonanywhere.com/login" target="blank">Hosted Site</Link> | <Link to="https://github.com/thomasmullen9999/fit-and-strong" target="blank">GitHub Repo</Link> | <Link to="https://www.youtube.com/watch?v=eT_UZQMsg3o&feature=youtu.be" target="blank">Video Overview</Link></p>
+        <p>Links: <Link to="https://thomasmullen9999.pythonanywhere.com/login" target="blank">Hosted Site</Link> | <Link to="https://www.youtube.com/watch?v=eT_UZQMsg3o&feature=youtu.be" target="blank">Video Overview</Link> | <Link to="https://github.com/thomasmullen9999/fit-and-strong" target="blank">GitHub Repo</Link></p>
         <p>A Flask application which allows users to view a list of gym exercises, log their own workouts, keep track of their food intake (including calories and other nutritional information) and keep track of their health statistics (e.g. weight, daily steps, etc.). The aim of this project was to combine features from other applications such as MyFitnessPal, Apple's Health app and gym/workout apps and store all the information in one place. Created as my final project submission for Harvard's CS50x Computer Science course.</p>
         <p>Languages/Frameworks Used: Python, Flask, SQLite3</p>
         </div>
