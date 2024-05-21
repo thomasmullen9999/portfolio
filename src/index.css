@@ -147,14 +147,52 @@ button.btn.btn-primary {
   text-decoration: underline;
 }
 
-section {
-  display: flex;
+#logos {
+  text-align: center;
 }
 
-section img {
+.contact-icon {
+  width: 50px;
   margin-right: 20px;
 }
 
-.app-info {
-  display: inline;
+.contact-detail {
+  display: flex;
+  align-items: center;
 }
+
+@media only screen and (min-width: 1000px) {
+  
+  section {
+    display: flex;
+  }
+  
+  section img {
+    margin-right: 20px;
+  }
+  
+  .app-info {
+    display: inline;
+  }
+
+}
+
+@media only screen and (max-width: 999px) {
+  section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  button.btn.btn-primary {
+    margin-bottom: 20px;
+  }
+
+}
+
+

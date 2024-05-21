@@ -6,6 +6,8 @@ const Certifications = () => {
       
       <h2>Certifications</h2>
 
+      <p><strong>A selection of my achievements and qualifications related to computer science, software development and programming.</strong></p>
+
       <div className="certification">
         <h3>Diploma of Higher Education (Level 5) - Computer Science - Manchester Metropolitan University</h3>
         <section>

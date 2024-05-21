@@ -23,8 +23,8 @@ const Skills = () => {
         <img src="/flask.png" className="icon"></img>
         <img src="/node.png" className="icon"></img>
         <img src="/react.png" className="icon"></img>
-        <img src="/jest.png" className="icon"></img>
         <img src="/netlify.png" className="icon"></img>
+        <img src="/jest.png" className="icon"></img>
         <img src="/github.png" className="icon"></img>
         <img src="/c.png" className="icon"></img>
       </div>

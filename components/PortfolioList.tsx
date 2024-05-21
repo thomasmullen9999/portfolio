@@ -5,7 +5,7 @@ const PortfolioList = () => {
   return (
     <div id="portfolio-list">
 
-      <h2>A selection of projects I have worked on during my trainee/junior developer journey. I have aimed to become proficient in a wide range of web programming technologies, and have  used a variety of different languages and frameworks.</h2>
+      <p><strong>A selection of projects I have worked on during my trainee/junior developer journey. I have aimed to become proficient in a wide range of web programming technologies, and have  used a variety of different languages and frameworks.</strong></p>
 
       <div className="portfolio-piece">
         <h3>NC News - Back End</h3>
