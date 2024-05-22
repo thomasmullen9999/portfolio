@@ -8,6 +8,7 @@ import PortfolioList from '../components/PortfolioList'
 import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 import Certifications from '../components/Certifications'
+import AboutMe from '../components/AboutMe'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <NavBar/>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/aboutme" element={<AboutMe />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/certifications" element={<Certifications />} />
             <Route path="/portfolio" element={<PortfolioList />} />

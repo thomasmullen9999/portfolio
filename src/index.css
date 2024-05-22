@@ -3,7 +3,6 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
@@ -136,10 +135,11 @@ img {
 
 button.btn.btn-primary {
   margin-bottom: 20px;
+  background-color: rgb(231, 231, 231);
 }
 
 #trek-it-image {
-  height: 400px;
+  height: 250px;
   width: auto;
 }
 
@@ -187,10 +187,6 @@ button.btn.btn-primary {
 
   img {
     margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  button.btn.btn-primary {
     margin-bottom: 20px;
   }
 

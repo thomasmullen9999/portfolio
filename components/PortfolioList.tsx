@@ -67,7 +67,7 @@ const PortfolioList = () => {
         <img src="/trek-it.png" alt="Trek-It Travel application thumbnail" id="trek-it-image"></img>
         <div className="app-info">
         <p><strong>Links: </strong><Link to="https://northcoders.com/project-phase/trek-it" target="blank">Video Overview</Link> | <Link to="https://github.com/thomasmullen9999/trek-it-travel" target="blank">GitHub Repo</Link></p>
-        <p><strong>Description: </strong>A travel-themed application which allows users to create an account, browse a selection of holiday destinations, search for information about different cities (including restaurants, landmarks and attractions) and create itineraries. This was created in a group with several other students during the final project phase of my time at the Northcoders Software Development Bootcamp.</p>
+        <p><strong>Description: </strong>A travel-themed application for mobile devices which allows users to create an account, browse a selection of holiday destinations, search for information about different cities (including restaurants, landmarks and attractions) and create itineraries. This was created in a group with several other students during the final project phase of my time at the Northcoders Software Development Bootcamp.</p>
         <p><strong>Languages/Tech Stack: </strong>HTML/CSS, Javascript, React Native, Firebase, Firestore, Expo</p>
         </div>
         </section>
