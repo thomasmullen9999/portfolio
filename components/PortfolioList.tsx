@@ -15,7 +15,6 @@ const PortfolioList = () => {
           <p><strong>Links:</strong> <Link to="https://nc-news-evv6.onrender.com/api" target="blank">Hosted API</Link> | <Link to="https://github.com/thomasmullen9999/nc-news" target="blank">GitHub Repo</Link></p>
             <p><strong>Description: </strong>A website in the style of Reddit or Quora, which draws information from a database of users, articles, topics and comments. It is a server-side application, mimicking the back-end of a news website. Created during the back-end portion of my time studying at the Northcoders Software Development Bootcamp.</p>
             <p><strong>Languages/Tech Stack:</strong> Javascript, Node.js, PostgreSQL</p>
-            
           </div>
         </section>
       </div>
@@ -29,7 +28,6 @@ const PortfolioList = () => {
         <p><strong>Links: </strong><Link to="https://thomas-mullen-nc-news.netlify.app/" target="blank">Hosted Site</Link> | <Link to="https://github.com/thomasmullen9999/fe-nc-news" target="blank">GitHub Repo</Link></p>
         <p><strong>Description: </strong>A website which allows users to browse a selection of articles, topics and comments, connected to my NC back-end project. The site was designed to be viewable on a variety of devices, and accessibility was an important factor when designing the site. Created during the front-end portion of my time studying at the Northcoders Software Development Bootcamp.</p>
         <p><strong>Languages/Tech Stack: </strong>HTML/CSS, Javascript, React.js, Bootstrap, Netlify</p>
-        
         
         </div>
         </section>

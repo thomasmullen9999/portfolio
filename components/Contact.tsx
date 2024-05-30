@@ -1,3 +1,5 @@
+import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 
 const Contact = () => {
@@ -7,19 +9,18 @@ const Contact = () => {
 
       <div className="contact-detail">
         <img src="/gmaillogo.png" className="contact-icon"></img>
-        <h3>thomasmullen9999@gmail.com</h3>
+        <h3><Link to="mailto:thomasmullen9999@gmail.com">thomasmullen9999@gmail.com</Link></h3>
       </div>
-
+      <br></br>
       <div className="contact-detail">
         <img src="/githublogo.png" className="contact-icon"></img>
-        <h3>thomasmullen9999</h3>
+        <h3><Link to="https://www.github.com/thomasmullen9999" target="blank">thomasmullen9999</Link></h3>
       </div>
-
+      <br></br>
       <div className="contact-detail">
         <img src="/linkedinlogo.png" className="contact-icon"></img>
-        <h3>https://www.linkedin.com/in/thomas-mullen-2591932b2/</h3>
+        <h3><Link to="https://www.linkedin.com/in/thomas-mullen-2591932b2/" target="blank">https://www.linkedin.com/in/thomas-mullen-2591932b2/</Link></h3>
       </div>
-
     </div>
   );
 };
