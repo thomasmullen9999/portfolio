@@ -5,6 +5,8 @@ const PortfolioList = () => {
   return (
     <div id="portfolio-list">
 
+      <h2>Portfolio</h2>
+
       <p><strong>A selection of projects I have worked on whilst progressing in my software development journey. I am constantly learning and have become proficient in a wide range of web programming technologies, whilst using a variety of different languages and frameworks.</strong></p>
 
       <div className="portfolio-piece">
