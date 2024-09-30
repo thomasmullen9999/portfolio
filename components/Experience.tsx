@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import NCLogo from '../images/northcoders.png'
+import MCLogo from '../images/maddison-clarke.png'
 
 const Experience = () => {
   return (
@@ -10,7 +12,7 @@ const Experience = () => {
       <div className="job-role">
         <h3>Junior Web Developer - Maddison Clarke</h3>
         <section className="exp-top">
-          <img id="mc-logo" src="images/maddison-clarke.png" alt="Maddison Clarke company logo"></img>
+          <img id="mc-logo" src={MCLogo} alt="Maddison Clarke company logo"></img>
           <p>At Maddison Clarke, a subsidiary of J3 Debt Solutions Limited, I have gained valuable industry experience in a commercial web development role which has enabled me to work alongside a senior developer. Together, we co-operated closely with the marketing team, conferring often to decide what the best options would be going forward in terms of the functionality of our applications, as well as streamlining the UX/UI for a convenient user experience. I was primarily tasked with assisting in the production of forms which enabled users to make claims regarding equal pay and faulty diesel emissions systems in cars, as well as several other smaller projects.</p> 
         </section>
           <p>Before becoming employed here, I was only vaguely familiar with some of the software and frameworks used at the company, such as Next.js, Prisma and Cypress. I saw this as a great opportunity to deepen my knowledge of different tech stacks, and gain proficiency in a wider range of development tools. I quickly integrated myself into the team and received positive feedback for my approach to the position. Some of my achievements in this role have included:
@@ -28,7 +30,7 @@ const Experience = () => {
       <div className="job-role">
         <h3>Trainee Software Developer - Northcoders</h3>
         <section className="exp-top">
-          <img id="nc-logo" src="images/northcoders.png" alt="Northcoders company logo"></img>
+          <img id="nc-logo" src={NCLogo} alt="Northcoders company logo"></img>
           <p>In 2024 I attended a software development course with Northcoders, a company which offers training in several industries, including not only software but also data and cloud engineering. Northcoders is well known for being one of the best providers of this style of course, and is renowned for offering highly relevant and up-to-date teaching which reflects current industry trends, enabling students to easily and seamlessly enter a jobs market in which standards and technologies are constantly shifting. After completing the required pre-course content, I was accepted into the course after achieving a perfect score of 100% on the entry challenge, a series of coding tasks designed to test applicants on their understanding of key Javascript concepts and problem-solving abilities. </p> 
         </section>
           <p>The course was thirteen weeks long, and was an intense bootcamp during which new ideas and concepts were taught almost every day, via online lectures and seminars. After every lesson, we completed more coding challenges and small projects to consolidate our knowledge and ensure that we were progressing through the course content at a healthy speed. After the introductory week, the remainder of the course was divided into four blocks of three-week-long sections: fundamentals, front-end, back-end and a final group project. At Northcoders I learned how to:
