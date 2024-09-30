@@ -5,8 +5,8 @@ const Skills = () => {
     <div id="skills">
       <h2>Skills</h2>
       <h3><span className="underline">Languages:</span> C, Python, Javascript (using Node.js and browsers as runtime environment), Typescript</h3>
-      <h3><span className="underline">Testing:</span> Test Driven Development (TDD), Jest, Supertest</h3>
-      <h3><span className="underline">Back-end:</span> SQL, PostgreSQL, SQLite, MySQL, Express, database seeding, migrations</h3>
+      <h3><span className="underline">Testing:</span> Test Driven Development (TDD), Jest, Supertest, Cypress</h3>
+      <h3><span className="underline">Back-end:</span> Next.js, SQL, PostgreSQL, SQLite, MySQL, Express, database seeding, migrations</h3>
       <h3><span className="underline">Front-end:</span> HTML, CSS, React, React Native, Lighthouse, other accessibility tools</h3>
       <h3><span className="underline">Hosting:</span> Netlify, Cloudflare, GitHub Pages, Vercel, PythonAnywhere</h3>
       <h3><span className="underline">Soft skills:</span> Technical communication, paired programming, SDL, agile and SCRUM Methodologies</h3>
@@ -22,11 +22,13 @@ const Skills = () => {
         <img src="/python.png" className="icon"></img>
         <img src="/flask.png" className="icon"></img>
         <img src="/node.png" className="icon"></img>
+        <img src="/next.png" className="icon"></img>
         <img src="/react.png" className="icon"></img>
         <img src="/netlify.png" className="icon"></img>
         <img src="/jest.png" className="icon"></img>
         <img src="/github.png" className="icon"></img>
         <img src="/c.png" className="icon"></img>
+        <img src="/cypress.png" className="icon"></img>
       </div>
 
     </div>

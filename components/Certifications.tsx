@@ -1,12 +1,10 @@
-
-
 const Certifications = () => {
   return (
     <div id="certifications">
       
       <h2>Certifications</h2>
 
-      <p><strong>A selection of my achievements and qualifications related to computer science, software development and programming.</strong></p>
+      <h3>A selection of my achievements and qualifications related to computer science, software development and programming</h3>
 
       <div className="certification">
         <h3>Diploma of Higher Education (Level 5) - Computer Science - Manchester Metropolitan University</h3>
@@ -27,8 +25,8 @@ const Certifications = () => {
       <p>In 2024 I attended Northcoders, a widely recognised coding bootcamp in the UK, and undertook their software development course. Here, I 
         cemented some of my already-existing skills such as use of HTML/CSS, Git and Javascript, and also learned how to apply different
         technologies in both front-end and back-end web design. In regards to back-end, I learned how to use SQL (specifically PostgreSQL) to seed a database and 
-        integrate with an API using Node.js and Express, using Test Driven Development to perform unit tests. With front-end, I designed the user-facing side of a website with React.js and Bootstrap, which I hosted with Netlify. During the final project phase of the course, I worked as part of a small group of developers to create a mobile
-        application (using React Native, Fireshare, Firestore and Expo) which allows a user to view various travel destinations as well as relevant
+        integrate with an API using Node.js and Express, using Test Driven Development to perform unit tests. With front-end, I designed the user-facing side of a website with React.js and Bootstrap, which I hosted with Netlify. During the final project phase of the course, I worked as part of a small team of developers to create a mobile
+        application (using React Native, Fireshare, Firestore and Expo) called Trek-It Travel. This app allows a user to view various travel destinations as well as relevant
         information about local landmarks, restaurants and tourist attractions.</p>
       </section>
       </div>
@@ -49,7 +47,7 @@ const Certifications = () => {
       <h3>Harvard CS50's Introduction to Databases With SQL</h3>
       <section>
       <img className="img-right" src="/cs50sqlcert.png" alt="CS50's Introduction to Databases certificate of completion"></img>
-      <p>This course from Harvard University focusing on SQL was instrumental to my understanding of relational databases, and I learned about the CRUD (Create, Read, Update and Delete) methods which are used when manipulating data with software applications. During the course, I learned how to create queries for databases and join them together with junction tables and nested SELECT statements. I also learned how to optimise query searches with indexes, create views as shortcuts for frequently requested data, and write code to add new tables and append data to already existing tables. For my final project, I created a database called Jukebox.db which allows a user to store and alter data about bands, albums, musicians and more. This project was created in SQLite3 but I also learned how to use MySQL for scaling with larger sets of data.</p>
+      <p>This course from Harvard University focusing on SQL was instrumental to my understanding of relational databases; here I learned more about the CRUD (Create, Read, Update and Delete) methods which are used when manipulating data within applications. During the course, I learned how to create SQL queries and join them together with junction tables and nested SELECT statements. I also learned how to optimise query searches with indexes, create views as shortcuts for frequently requested data, and write code to add new tables and append data to already existing tables. For my final project, I created a database called Jukebox.db which allows a user to store and alter data about bands, albums, musicians and more. This project was created in SQLite3 but I also learned how to use MySQL for scaling with larger sets of data.</p>
       </section>
       </div>
 

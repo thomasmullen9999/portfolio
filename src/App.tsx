@@ -9,6 +9,7 @@ import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 import Certifications from '../components/Certifications'
 import AboutMe from '../components/AboutMe'
+import Experience from '../components/Experience'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
             <Route path="/aboutme" element={<AboutMe />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/certifications" element={<Certifications />} />
+            <Route path="/experience" element={<Experience />} />
             <Route path="/portfolio" element={<PortfolioList />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
