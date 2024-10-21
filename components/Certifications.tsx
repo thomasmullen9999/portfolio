@@ -9,7 +9,7 @@ const Certifications = () => {
       <div className="certification">
         <h3>Diploma of Higher Education (Level 5) - Computer Science - Manchester Metropolitan University</h3>
         <section>
-        <img className="img-right diphe" src="/diphecert.png" alt="Manchester Metropolitan University Computer Science Diploma of Higher Education certificate of completion"></img>
+        <img className="img-right diphe cert-img" src="/diphecert.png" alt="Manchester Metropolitan University Computer Science Diploma of Higher Education certificate of completion"></img>
         <p>At MMU I began my journey in Computer Science and programming, and it was here that I grasped many of the concepts which are fundamental to coding such as 
           functional programming vs. object-oriented programming, use of conditionals with if/else if/else statements, and procedural loops (for, while, do while). I 
           developed an understanding of data structures such as linked lists, binary trees and stacks/queues, and worked with other colleagues in a professional development module to create a group project. I learned about Entity Relationship Diagrams and how these can be used to represent relational databases. I also learned 
@@ -21,7 +21,7 @@ const Certifications = () => {
       <div className="certification">
       <h3>Northcoders Software Development Bootcamp</h3>
       <section>
-      <img className="img-right" src="/northcoderscert.png" alt="Northcoders certificate of completion"></img>
+      <img className="img-right cert-img" src="/northcoderscert.png" alt="Northcoders certificate of completion"></img>
       <p>In 2024 I attended Northcoders, a widely recognised coding bootcamp in the UK, and undertook their software development course. Here, I 
         cemented some of my already-existing skills such as use of HTML/CSS, Git and Javascript, and also learned how to apply different
         technologies in both front-end and back-end web design. In regards to back-end, I learned how to use SQL (specifically PostgreSQL) to seed a database and 
@@ -34,7 +34,7 @@ const Certifications = () => {
       <div className="certification">
       <h3>Harvard CS50's Introduction to Computer Science</h3>
       <section>
-      <img className="img-right" src="/cs50xcert.png" alt="CS50's Intro to Computer Science certificate of completion"></img>
+      <img className="img-right cert-img" src="/cs50xcert.png" alt="CS50's Intro to Computer Science certificate of completion"></img>
       <p>An intensive course with fantastic lectures delivered by Harvard University's David Malan. This course not only acted as an exceptional resource for
         learning about important theoretical Computer Science concepts, but also provides practical experience in a variety of programming languages, starting
         with the low-level C language and eventually moving on to more modern higher level languages such as Python, SQL, HTML and CSS. This course covers
@@ -46,7 +46,7 @@ const Certifications = () => {
       <div className="certification">
       <h3>Harvard CS50's Introduction to Databases With SQL</h3>
       <section>
-      <img className="img-right" src="/cs50sqlcert.png" alt="CS50's Introduction to Databases certificate of completion"></img>
+      <img className="img-right cert-img" src="/cs50sqlcert.png" alt="CS50's Introduction to Databases certificate of completion"></img>
       <p>This course from Harvard University focusing on SQL was instrumental to my understanding of relational databases; here I learned more about the CRUD (Create, Read, Update and Delete) methods which are used when manipulating data within applications. During the course, I learned how to create SQL queries and join them together with junction tables and nested SELECT statements. I also learned how to optimise query searches with indexes, create views as shortcuts for frequently requested data, and write code to add new tables and append data to already existing tables. For my final project, I created a database called Jukebox.db which allows a user to store and alter data about bands, albums, musicians and more. This project was created in SQLite3 but I also learned how to use MySQL for scaling with larger sets of data.</p>
       </section>
       </div>

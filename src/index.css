@@ -49,7 +49,7 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
+  border-radius: 5px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
@@ -149,6 +149,7 @@ button.btn.btn-primary {
 
 #logos {
   text-align: center;
+  border-style: groove;
 }
 
 .contact-icon {
@@ -183,6 +184,32 @@ button.btn.btn-primary {
 
 .job-role {
   display: block;
+}
+
+.rounded-corners {
+  border-radius: 10px;
+}
+
+.margin-left-50 {
+  margin-left: 50px;
+}
+
+.comic-book {
+  width: 30%;
+  height: 550px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.gaming {
+  width: 28%;
+  height: 320px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.cert-img {
+  border-radius: 5px;
 }
 
 @media only screen and (min-width: 1000px) {
