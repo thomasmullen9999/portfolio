@@ -1,19 +1,32 @@
-
-import { Button, ButtonGroup } from "react-bootstrap";
-import { Link } from 'react-router-dom';
+import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <nav id="nav-bar">
-      <ButtonGroup>
-          <Link to="/"><Button>Home</Button></Link>
-          <Link to="/aboutme"><Button>About Me</Button></Link>  
-          <Link to="/skills"><Button>Skills</Button></Link>  
-          <Link to="/certifications"><Button>Certifications</Button></Link>  
-          <Link to="/experience"><Button>Experience</Button></Link>   
-          <Link to="/portfolio"><Button>Portfolio</Button></Link>    
-          <Link to="/contact"><Button>Contact</Button></Link>    
-      </ButtonGroup>
+      <div className="nav-buttons">
+        <Link to="/">
+          <Button className="nav-button">Home</Button>
+        </Link>
+        <Link to="/aboutme">
+          <Button className="nav-button">About Me</Button>
+        </Link>
+        <Link to="/skills">
+          <Button className="nav-button">Skills</Button>
+        </Link>
+        <Link to="/certifications">
+          <Button className="nav-button">Certifications</Button>
+        </Link>
+        <Link to="/experience">
+          <Button className="nav-button">Experience</Button>
+        </Link>
+        <Link to="/portfolio">
+          <Button className="nav-button">Portfolio</Button>
+        </Link>
+        <Link to="/contact">
+          <Button className="nav-button">Contact</Button>
+        </Link>
+      </div>
     </nav>
   );
 };

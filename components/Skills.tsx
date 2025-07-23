@@ -1,16 +1,31 @@
-
-
 const Skills = () => {
   return (
     <div id="skills">
-      <h2>Skills</h2>
-      <h3><span className="underline">Languages:</span> C, Python, Javascript (using Node.js and browsers as runtime environment), Typescript</h3>
-      <h3><span className="underline">Testing:</span> Test Driven Development (TDD), Jest, Supertest, Cypress</h3>
-      <h3><span className="underline">Back-end:</span> Next.js, SQL, PostgreSQL, SQLite, MySQL, Express, database seeding, migrations</h3>
-      <h3><span className="underline">Front-end:</span> HTML, CSS, React, React Native, Lighthouse, other accessibility tools</h3>
-      <h3><span className="underline">Hosting:</span> Netlify, Cloudflare, GitHub Pages, Vercel, PythonAnywhere</h3>
-      <h3><span className="underline">Soft skills:</span> Technical communication, paired programming, SDL, agile and SCRUM Methodologies</h3>
+      <h2>Technical Skills</h2>
 
+      <h3>
+        <span className="underline">Languages:</span> JavaScript, TypeScript,
+        Python, HTML/CSS, SQL
+      </h3>
+      <h3>
+        <span className="underline">Frameworks/Libraries:</span> React.js,
+        Next.js, React Native, Node.js, Express.js, Flask, Prisma
+      </h3>
+      <h3>
+        <span className="underline">Databases:</span> PostgreSQL, MySQL, SQLite
+      </h3>
+      <h3>
+        <span className="underline">Testing/QA:</span> Test Driven Development
+        (TDD), Jest, Supertest, Cypress
+      </h3>
+      <h3>
+        <span className="underline">Development Tools/Platforms:</span>{" "}
+        Git/GitHub, Netlify, Vercel, Cloudflare
+      </h3>
+      <h3>
+        <span className="underline">Soft Skills/Methodologies:</span>{" "}
+        Agile/SCRUM, technical communication, paired programming, SDLC
+      </h3>
       <div id="logos">
         <img src="/html5.png" className="icon"></img>
         <img src="/css.png" className="icon"></img>
@@ -29,8 +44,9 @@ const Skills = () => {
         <img src="/github.png" className="icon"></img>
         <img src="/c.png" className="icon"></img>
         <img src="/cypress.png" className="icon"></img>
+        {/* <img src="/vue.png" className="icon"></img> */}
+        <img src="/wordpress.png" className="icon"></img>
       </div>
-
     </div>
   );
 };

@@ -1,34 +1,37 @@
-import './App.css'
-import { Routes, Route } from 'react-router-dom'; 
-import Header from '../components/Header'
-import Home from '../components/Home'
-import Footer from '../components/Footer'
-import NavBar from '../components/NavBar'
-import PortfolioList from '../components/PortfolioList'
-import Skills from '../components/Skills'
-import Contact from '../components/Contact'
-import Certifications from '../components/Certifications'
-import AboutMe from '../components/AboutMe'
-import Experience from '../components/Experience'
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Header from "../components/Header";
+import Home from "../components/Home";
+import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
+import PortfolioList from "../components/PortfolioList";
+import Skills from "../components/Skills";
+import Contact from "../components/Contact";
+import Certifications from "../components/Certifications";
+import AboutMe from "../components/AboutMe";
+import Experience from "../components/Experience";
+import ScrollToTop from "../components/ScrollToTop";
 
 function App() {
-
   return (
     <div id="app">
-      <Header/>
-        <NavBar/>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/aboutme" element={<AboutMe />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/certifications" element={<Certifications />} />
-            <Route path="/experience" element={<Experience />} />
-            <Route path="/portfolio" element={<PortfolioList />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
+      <Header />
+      <NavBar />
+      <ScrollToTop />
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutme" element={<AboutMe />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/certifications" element={<Certifications />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/portfolio" element={<PortfolioList />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
